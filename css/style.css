@@ -1,0 +1,88 @@
+body {
+    background-image: url(/imgs/super.jpg);
+}
+
+body>a>img {
+    width: 100%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin: 30px auto;
+    background-color: rgb(255, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+.ofertas {
+    margin: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ofertas div {
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 20px;
+    border: 10px double black;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.ofertas div p {
+    font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.ofertas div img {
+    width: 85%;
+    border-radius: 10%;
+}
+
+.precios {
+    margin: 0;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    color: white;
+    background-color: rgb(219, 7, 7, 0.8);
+}
+
+h4 {
+    color: rgb(219, 7, 7);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    margin: 20px;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.texto-historia {
+    width: 30%;
+    font-size: 20px;
+    font-family: poppins, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    background-color: rgb(254, 237, 23);
+    /* background-color: rgb(255, 255, 255, 0.9); */
+    color: black;
+    border-radius: 20px;
+}
+
+.historia img {
+    width: 60%;
+    border-radius: 20px;
+    border: 20px solid rgb(2, 225, 243, 0.8);
+}
+
+.historia span {
+    color: rgb(219, 7, 7);
+    font-weight: bold;
+}

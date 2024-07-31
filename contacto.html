@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="./css/comun.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link data-n-head="ssr" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap">
+</head>
+
+<body>
+    <header>
+        <h1>OLA-MART</h1>
+        <p>CONTACTO</p>
+        <ul>
+            <a href="./index.html">
+                <li>Inicio</li>
+            </a>
+            <a href="./compras.html">
+                <li>Compras</li>
+            </a>
+        </ul>
+    </header>
+
+    <section>
+        <div class="container">
+            <h4><i class="fas fa-envelope"></i> DEJANOS TU MENSAJE</h4>
+            <form id="contactoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="number" id="telefono" name="telefono" required>
+
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" rows="8" required></textarea>
+
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p><i class="fas fa-clock"></i> Todos los días, de 8 a 21 horas</p>
+            <p><i class="fas fa-phone"></i> Teléfono: 02284-485500</p>
+            <p><i class="fas fa-map-marker-alt"></i> Av. Del Valle N° 2871</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"
+        integrity="sha512-Qlv6VSKh1gDKGoJbnyA5RMXYcvnpIqhO++MhIM2fStMcGT9i2T//tSwYFlcyoRRDcDZ+TYHpH8azBBCyhpSeqw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script2.js"></script>
+</body>
+
+</html>

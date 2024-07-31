@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+header {
+    height: auto;
+    background-color: rgb(0, 0, 0, 0.4);
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(254, 237, 23);
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+
+header p {
+    margin: 0;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+header li {
+    cursor: pointer;
+    width: 25vh;
+    margin: 20px;
+    background-color: rgb(255, 255, 255, 0.8);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    list-style-type: none;
+}
+
+header li:hover {
+    background-color: rgb(254, 237, 23);
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(254, 237, 23);
+    height: auto;
+    font-weight: bold;
+    font-family: poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+footer div {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.fas {
+    font-size: 24px;
+    margin-right: 5px;
+    color: rgb(219, 7, 7);
+}
