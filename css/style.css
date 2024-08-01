@@ -35,12 +35,10 @@ h2 {
 
 .ofertas div p {
     font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
 }
 
 .ofertas div img {
     width: 85%;
-    border-radius: 10%;
 }
 
 .precios {
@@ -71,7 +69,6 @@ h4 {
     font-family: poppins, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 30px;
     background-color: rgb(254, 237, 23);
-    /* background-color: rgb(255, 255, 255, 0.9); */
     color: black;
     border-radius: 20px;
 }
