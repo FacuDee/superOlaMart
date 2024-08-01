@@ -27,7 +27,7 @@ header p {
     font-size: xx-large;
 }
 
-header ul {
+nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,7 +36,7 @@ header ul {
     margin: auto;
 }
 
-header li {
+nav li {
     cursor: pointer;
     width: 25vh;
     margin: 20px;
@@ -49,11 +49,11 @@ header li {
     list-style-type: none;
 }
 
-header li:hover {
+nav li:hover {
     background-color: rgb(254, 237, 23);
 }
 
-header a {
+nav a {
     text-decoration: none;
     color: inherit;
 }
