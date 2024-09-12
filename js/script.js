@@ -123,20 +123,16 @@ comprarBtn.addEventListener("click", () => {
         </div>
     `;
 
-    // document.getElementById('aceptar-btn').addEventListener('click', () => {
-    //     alert('La operación fue realizada. ¡Muchas gracias por su compra!');
-    //     confirmacionCompra.innerHTML = '';
-    //     unidadesCompra.innerHTML = '';
-    //     totalCompra = 0;
-    //     document.getElementById('total-compra').textContent = `Total: $${totalCompra}`;
-    // });
-
     document.getElementById("aceptar-btn").addEventListener("click", () => {
       Swal.fire({
         title: "¡Compra realizada!",
         text: "La operación fue realizada con éxito. ¡Muchas gracias por su compra!",
         icon: "success",
         confirmButtonText: "Aceptar",
+        customClass: {
+          title: "sweet-fuente",
+          content: "text-fuente",
+        },
       }).then(() => {
         // Limpiar la pantalla y los valores después de aceptar
         confirmacionCompra.innerHTML = "";
@@ -159,6 +155,10 @@ comprarBtn.addEventListener("click", () => {
         cancelButtonColor: "#d33",
         confirmButtonText: "Sí, cancelar",
         cancelButtonText: "No, continuar con la compra",
+        customClass: {
+          title: "sweet-fuente",
+          content: "text-fuente",
+        },
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire({
@@ -166,6 +166,10 @@ comprarBtn.addEventListener("click", () => {
             text: "Tu compra ha sido cancelada.",
             icon: "error",
             confirmButtonText: "Aceptar",
+            customClass: {
+              title: "sweet-fuente",
+              content: "text-fuente",
+            },
           });
           // Limpiar la pantalla y los valores después de cancelar
           confirmacionCompra.innerHTML = "";

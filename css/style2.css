@@ -1,172 +1,185 @@
 body {
-    background-image: url(/imgs/superFondo.jpeg);
+  background-image: url(/imgs/superFondo.jpeg);
 }
 
 section {
-    height: auto;
-    display: flex;
+  height: auto;
+  display: flex;
 }
 
-section>div>p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+section > div > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
 }
 
 .productos {
-    padding: 20px;
-    width: 80%;
-    height: auto;
-    background-color: white;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: white;
 }
 
 .compra {
-    padding: 20px;
-    width: 20%;
-    background-color: rgb(120, 255, 255, 0.9);
+  padding: 20px;
+  width: 20%;
+  background-color: rgb(120, 255, 255, 0.9);
 }
 
 .compra-scroll {
-    padding-top: 20px;
-    position: sticky;
-    top: 0;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
 }
 
-.compra-scroll>p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
+.compra-scroll > p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
 }
 
 .grilla-productos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.grilla-productos>div {
-    margin: 20px;
-    padding: 20px 0px;
-    border: 1px dashed rgb(209, 200, 200);
-    border-radius: 10px;
-    height: auto;
-    width: 220px;
+.grilla-productos > div {
+  margin: 20px;
+  padding: 20px 0px;
+  border: 1px dashed rgb(209, 200, 200);
+  border-radius: 10px;
+  height: auto;
+  width: 220px;
 }
 
 .grilla-productos p {
-    padding: 10px 0px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100%;
-    background-color: rgb(235, 76, 76);
-    font-weight: bold;
-    color: white;
+  padding: 10px 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 100%;
+  background-color: rgb(235, 76, 76);
+  font-weight: bold;
+  color: white;
 }
 
 h6 {
-    margin: 20px 0px;
-    font-size: 14px;
-    font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 0px;
+  font-size: 14px;
+  font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grilla-compra div {
-    border: 1px solid black;
-    height: auto;
-    min-height: 50px;
+  border: 1px solid black;
+  height: auto;
+  min-height: 50px;
 }
 
 .unidades {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .unidades input {
-    margin: 5px;
-    width: 50px;
-    height: 30px;
+  margin: 5px;
+  width: 50px;
+  height: 30px;
 }
 
 .unidades button {
-    font-family: poppins;
-    cursor: pointer;
-    background-color: greenyellow;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 5px;
-    width: 70px;
-    height: 36px;
+  font-family: poppins;
+  cursor: pointer;
+  background-color: greenyellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  width: 70px;
+  height: 36px;
 }
 
 .producto img {
-    width: 200px;
+  width: 200px;
 }
 
 #total-compra {
-    background-color: rgb(235, 76, 76);
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    max-width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin: 20px auto;
+  background-color: rgb(235, 76, 76);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 20px auto;
 }
 
 .compra button {
-    cursor: pointer;
-    background-color: rgba(173, 255, 47, 0.2);
-    font-size: 20px;
-    max-width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin: auto;
+  cursor: pointer;
+  background-color: rgba(173, 255, 47, 0.2);
+  font-size: 20px;
+  max-width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: auto;
 }
 
 .compra button:hover {
-    background-color: greenyellow;
+  background-color: greenyellow;
 }
 
 .unidades-compra {
-    margin: auto;
-    width: 80%;
-    background-color: white;
-    border-radius: 20px;
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .confirmacion-compra {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .mensaje-confirmacion {
-    width: max-content;
-    margin: auto;
-    background-color: rgb(254, 237, 23);
-    border: 2px dashed black;
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
+  width: max-content;
+  margin: auto;
+  background-color: rgb(254, 237, 23);
+  border: 2px dashed black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 .mensaje-confirmacion p {
-    margin-bottom: 20px;
-    font-size: 16px;
-    font-family: poppins, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: poppins, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .mensaje-confirmacion button {
-    font-size: 16px;
-    background-color: rgba(231, 231, 226, 0.5);
-    margin: 0 10px;
-    padding: 5px 10px;
-    cursor: pointer;
+  font-size: 16px;
+  background-color: rgba(231, 231, 226, 0.5);
+  margin: 0 10px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 #aceptar-btn:hover,
 #cancelar-btn:hover {
-    background-color: rgb(120, 255, 255);
+  background-color: rgb(120, 255, 255);
 }
 
 .p-compra {
-    color: rgb(219, 7, 7);
-    font-size: 18px !important;
-    font-weight: bold;
+  color: rgb(219, 7, 7);
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.text-fuente {
+  font-family: Poppins, "Arial", sans-serif;
+  font-size: 20px;
+}
+
+.sweet-fuente {
+  font-family: Poppins, "Arial", sans-serif;
+  font-size: 30px;
 }
